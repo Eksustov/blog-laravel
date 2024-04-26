@@ -1,0 +1,13 @@
+:root {
+    color: orangered;
+}
+
+a{
+    text-decoration:none;
+    color: orangered;
+}
+
+a:hover{
+    color: rgb(136, 0, 0);
+    font-size: 1.2em;
+}

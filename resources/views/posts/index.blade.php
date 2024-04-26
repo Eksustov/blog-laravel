@@ -8,11 +8,12 @@
 </head>
 <body>
     <h1>Posts</h1>
+    <a href="/create">CREATE POST</a>
     <ul>
     @foreach($posts as $post)
         <a href="/show/{{$post->id}}">
         <li> {{$post->title}}</li>
-
+        </a>
     @endforeach
     </ul>
 </body>
